@@ -1,0 +1,146 @@
+html {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.page {
+    width: 100%;
+    height: 100vh;
+
+    background: url("https://images.wallpaperscraft.ru/image/single/nochnoe_nebo_zvezdy_zvezdnoe_nebo_118036_3840x2400.jpg") center no-repeat;
+    background-size: cover;
+}
+
+
+.header {
+    padding: 15px 0;
+
+    background: #2B7DED;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-brand {
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.img {
+ top:15px;
+    width:30px;
+    height:30px;
+    background-color:black;
+    position:absolute;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav-link {
+    margin-left: 22.5px;
+
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+text-decoration: none;
+
+}
+
+.header-nav-link:hover {
+    color: #b2e3fd;
+    text-decoration:underline;
+}
+
+.header-nav-link.active {
+    position: relative;
+
+}
+
+.span1{
+	margin-top:100px;
+	margin-left:150px;
+	color:gray;
+}
+.span2{
+	margin-top:30px;
+	margin-left:150px;
+	color:white;
+}
+.span3{
+	margin-top:-24px;
+	margin-left:410px;
+	color:black;
+	font-size:24px;
+}
+.span4{
+	width:400px;
+	color:#32CD32;
+	margin-left:150px;
+	margin-top: 20px;
+}
+.btn{
+	margin-left:150px;
+	margin-top:100px;
+	color:white;
+	background-color: blue;
+	width:150px;
+	border-radius:6px;
+	height:25px;
+	font-size:16px;
+}
+.btn:hover{
+	background-color:green;
+}
+.email{
+	margin-top:80px;
+	margin-left:150px;
+	color:white;
+	font-size:16px;
+}
+.tel{
+	margin-top:-23px;
+	margin-left:370px;
+	color:white;
+	font-size:16px;
+}
+.img2{
+	margin-left: 40%;
+	max-width:400px;
+	max-height: 600px;
+	position:absolute;
+}
